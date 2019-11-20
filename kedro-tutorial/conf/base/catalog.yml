@@ -24,7 +24,8 @@ preprocessed_shuttles:
   filepath: data/02_intermediate/preprocessed_shuttles.csv
 
 master_table:
-  type: CSVLocalDataSet
+  type: CSVS3DataSet
+  bucket_name: kedro-ap-southeast-2-691313291965
   filepath: data/03_primary/master_table.csv
 
 regressor:
